@@ -1,0 +1,54 @@
+body{
+    background-color:black;
+}
+
+.alarmbox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    border-style: outset;
+     
+    border-width: 1px 1px 4px 1px;
+    padding: 50px;
+    border-radius: 4px; 
+    transform: translate(-50%,-50%);
+    
+    box-shadow: 4px 4px 4px beige;
+    
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    color:aqua;
+
+    align-content: center;
+   
+
+    
+}
+
+.btngroup {
+    display: flex;
+    padding: 10px;
+}
+
+.btns{
+    position: relative;
+    align-content: center;
+    display: flex;
+    padding: 10px;
+
+    border-width: 1px 1px 1px 1px;
+    border-radius: 4px;
+
+
+}
+
+.time{
+    position: relative;
+    padding: 5px;
+}
+
+
+    
+
+

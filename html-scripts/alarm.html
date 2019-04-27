@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<title>
+    Alarm
+</title>
+<head>
+    
+    <link rel="stylesheet" type="text/css" href="../stylesheets/alarm.css">
+
+</head>
+<body>
+    <div id="setAlarm" class="alarm">
+       <div id="alarmContainer" class="alarmbox">
+           <h3>Set Alarm Time</h3>
+           <div id="btngrp" class="btngroup">
+            <label>
+                <div id="forhrs" class="time">
+                        <select id="alarmhrs" class="hrs"></select>
+                </div>
+                </label>
+                
+                <label>
+                    <div id='formins' class="time">
+                        <select id="alarmmins" class="mins"></select>
+                    </div>
+                </label>
+
+                <label>
+                    <div id="forsecs" class="time">
+                        <select id="alarmsecs" class="secs"></select>
+                    </div>
+                </label>
+
+                <label>
+                    <div id="forampm" class="time">
+                        <select id="ampm">
+                            <option value="AM">AM</option>
+                            <option value="PM">PM</option>
+                        </select>
+                    </div>
+                </label>
+
+            </div>
+
+            <div id="btns" class="settime">
+                <button onClick="setalarm()">Set Alarm</button>
+                <button onClick="clearalarm()">Clear Alarm</button>
+            </div>
+
+
+       </div> 
+    </div>
+
+    <script src="../javascripts/setAlarm.js"></script>
+</body>
+</html>
